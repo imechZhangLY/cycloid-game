@@ -1,0 +1,21 @@
+{
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": false,
+        "target": "es5",
+        "downlevelIteration": true,
+        "importHelpers": true,
+        "sourceMap": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "allowJs": false,
+        "checkJs": false,
+        "lib": [
+            "es2015",
+            "dom"
+        ]
+    }
+}

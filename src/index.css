@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.dashboard {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(48, 48, 48, .2);
+    width: 200px;
+}
+.dashboard .start-btn {
+    width: 80px;
+}
+.dashboard > .slider-container {
+    padding: 10px;
+}
+.dashboard > .slider-container > div {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.slider-container > div .title {
+    width: 50px;
+    font-family: monospace;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
